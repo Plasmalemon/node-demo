@@ -1,0 +1,19 @@
+{
+  "name": "vue-auto-router-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "kkb": "./bin/kkb"
+  },
+  "devDependencies": {
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.5.3",
+    "ora": "^4.0.3"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "log-symbols": "^3.0.0"
+  }
+}

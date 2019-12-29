@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+const program = require("commander");
+const { init, refresh } = require("../lib/api");
+
+program.version(require("../package").version);
+
+// 定义命令行
+program
+  .command("init <name>")
+  .description("init project")
+  .action(init);
+
+//
+program
+  .command("refresh")
+  .description("refresh routers ...")
+  .action(refresh);
+
+// console.log('program.argv', process.argv)
+
+// commander 固定格式去执行
+program.parse(process.argv);
