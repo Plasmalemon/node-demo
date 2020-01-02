@@ -47,8 +47,17 @@ export const decorate = (
   router: KoaRouter
 ) => {
   return (target, property, descriptor) => {
+    const middlewares = [];
+    // 首先是参数传进来的中间件//
+    if (options.middlewares) {
+      middlewares.push(...options.middlewares);
+    }
+    // 不用输入固定的功能,可以根据需要写入中间件,很灵活
     const url = options && options.prefix ? options.prefix + path : path;
     console.log("method", method);
+
+    // 正常的业务中间件
+    middlewares.push(target[property]);
     router[method](url, target[property]);
   };
 };
