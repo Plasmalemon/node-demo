@@ -15,6 +15,7 @@
 |   ├──  fs                     # 非数据库的数据持久化
 |   ├──  poor                   # 连接池的简单测试
 |   ├──  transaction
+|   ├──  shop                   # 基于 MySQL sequelize vue 的简单商城
 |   ├──  mysql2.js              # MySQL数据库的持久化及sequelize的应用
 |   └──
 ├── 09                          # ts
