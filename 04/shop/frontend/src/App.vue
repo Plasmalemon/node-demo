@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Shop from "./views/Shop";
-import Cart from "./views/Cart";
-import Orders from "./views/Orders";
+// import Shop from "./views/Shop";
+// import Cart from "./views/Cart";
+// import Orders from "./views/Orders";
 export default {
   data() {
     return {
@@ -20,9 +20,9 @@ export default {
     };
   },
   components: {
-    Shop,
-    Cart,
-    Orders
+    // Shop,
+    // Cart,
+    // Orders
   }
 };
 </script>

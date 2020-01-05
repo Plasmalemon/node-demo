@@ -6,3 +6,5 @@ Sequelize 是一个用于 Postgres、MySQL、MariaDB、SQLite 和 Microsoft SQL 
 事务、关联等)
 
 pool 目录下连接池并发调用
+
+mysql2.js 是 标准 MYSQL api

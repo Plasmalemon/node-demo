@@ -1,6 +1,6 @@
 module.exports = {
   database: "shop",
   username: "root",
-  password: "12345678",
+  password: "example", // 你自己的数据库
   host: "localhost"
 };
